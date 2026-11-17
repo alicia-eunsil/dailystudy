@@ -1,0 +1,102 @@
+[
+  {"id":1,"topic":"조심스럽게 말 꺼내기","sentences":[
+    {"en":"I've been meaning to ask you how the trip went.","ko":"여행 어땠는지 계속 물어보려고 했어."},
+    {"en":"I was going to bring that up, but I wasn't sure how you'd feel about it.","ko":"그 얘기를 꺼내려 했는데, 네가 어떻게 받아들일지 몰라서 망설였어."},
+    {"en":"There's something I've been wanting to run by you.","ko":"네 의견을 좀 들어보고 싶은 게 있어."}],
+    "note":"I've been meaning to + 동사: 전부터 하려고 생각해 온 일. run something by someone은 상대에게 생각을 말하고 의견을 구한다는 뜻입니다."},
+  {"id":2,"topic":"진짜 이유 설명하기","sentences":[
+    {"en":"It's not so much the price—it's whether I'll actually use it.","ko":"가격보다는 내가 실제로 그걸 쓸지가 문제야."},
+    {"en":"It's not that I don't want to go; I've just got a lot on my plate right now.","ko":"가기 싫은 건 아닌데, 지금은 처리할 일이 너무 많아."},
+    {"en":"The thing is, I thought we'd already agreed on a time.","ko":"문제는, 난 우리가 이미 시간을 정한 줄 알았다는 거야."}],
+    "note":"It's not that + 문장: 상대가 오해할 만한 이유를 먼저 부정하고 실제 이유를 설명할 때 씁니다. I've got a lot on my plate는 할 일이 많다는 회화 표현입니다."},
+  {"id":3,"topic":"부드럽게 다른 의견 내기","sentences":[
+    {"en":"I see where you're coming from, but I'm not sure that would work for us.","ko":"왜 그렇게 생각하는지는 알겠는데, 우리 상황에 맞을지는 모르겠어."},
+    {"en":"I'm not opposed to it; I'd just like to think it through first.","ko":"반대하는 건 아니야. 먼저 충분히 생각해 보고 싶을 뿐이야."},
+    {"en":"Wouldn't it make more sense to wait until we have all the details?","ko":"자세한 내용을 다 알 때까지 기다리는 게 더 낫지 않을까?"}],
+    "note":"I'm not sure + 문장은 단정적인 반대를 부드럽게 만듭니다. Wouldn't it make more sense to…?는 대안을 제안하며 상대의 동의를 구하는 표현입니다."},
+  {"id":4,"topic":"말뜻을 확인하고 오해 풀기","sentences":[
+    {"en":"When you say it's included, do you mean there's no extra charge?","ko":"포함되어 있다는 게 추가 요금이 없다는 뜻인가요?"},
+    {"en":"I might have misunderstood, but I thought you said Friday.","ko":"내가 잘못 이해했을 수도 있는데, 금요일이라고 한 줄 알았어."},
+    {"en":"That's not quite what I meant—let me put it another way.","ko":"내가 하려던 말은 조금 달라. 다르게 설명해 볼게."}],
+    "note":"might have + 과거분사: 과거에 그랬을 가능성. I might have misunderstood는 상대를 탓하지 않고 이해한 내용을 확인할 때 유용합니다."},
+  {"id":5,"topic":"금요일 응용 · 의견을 꺼내고 조율하기","sentences":[
+    {"en":"I've been meaning to ask if there's any flexibility on the checkout time.","ko":"체크아웃 시간을 조금 조정할 수 있는지 여쭤보려고 했어요."},
+    {"en":"It's not that I don't trust you; I'd just feel better having it in writing.","ko":"널 못 믿는 건 아니야. 글로 남겨두면 좀 더 안심이 될 것 같아."},
+    {"en":"I see where you're coming from, but I might have misunderstood what we agreed on.","ko":"네 말은 이해하는데, 우리가 합의한 내용을 내가 잘못 이해했을 수도 있겠어."}],
+    "note":"이번 주 표현 복습: I've been meaning to(전부터 하려고 했다), It's not that(그런 이유는 아니다), might have misunderstood(잘못 이해했을 수도 있다)."},
+  {"id":6,"topic":"일정에 여유 두기","sentences":[
+    {"en":"I'd rather leave some room in the itinerary in case something comes up.","ko":"무슨 일이 생길 수도 있으니 여행 일정에 여유를 좀 두고 싶어."},
+    {"en":"Can we keep Friday open until we hear back from them?","ko":"그쪽에서 답이 올 때까지 금요일 일정은 비워둘까?"},
+    {"en":"Let's not commit to anything until we know what everyone's doing.","ko":"다들 일정이 어떤지 알 때까지는 아무것도 확정하지 말자."}],
+    "note":"in case + 문장은 어떤 상황에 대비한다는 뜻입니다. I'd rather + 동사원형은 두 선택 중 자신의 선호를 말할 때 씁니다."},
+  {"id":7,"topic":"변경을 부탁하고 대안 찾기","sentences":[
+    {"en":"Something's come up—would you mind if we pushed it back an hour?","ko":"일이 생겼는데, 한 시간 늦춰도 괜찮을까?"},
+    {"en":"Is there any chance we could work something out?","ko":"어떻게든 서로 맞출 방법이 있을까요?"},
+    {"en":"If that doesn't work for you, I'm happy to fit around your schedule.","ko":"그게 어려우면 네 일정에 맞출게."}],
+    "note":"Would you mind if + 과거형은 정중하게 허락을 구하는 표현입니다. pushed는 과거의 일이 아니라 앞으로 시간을 늦추자는 요청입니다."},
+  {"id":8,"topic":"조건을 붙여 동의하기","sentences":[
+    {"en":"I'm happy to go along with that, as long as we're back by six.","ko":"6시까지 돌아올 수 있다면 나도 그렇게 해도 좋아."},
+    {"en":"That works for me, provided we don't have to pay upfront.","ko":"선불로 내지 않아도 된다면 난 괜찮아."},
+    {"en":"I'd be up for it if we could make it a bit later.","ko":"시간을 조금 늦출 수 있다면 나도 하고 싶어."}],
+    "note":"as long as와 provided는 '~라는 조건으로'라는 뜻입니다. be up for는 어떤 활동을 하고 싶은 마음이 있다는 편한 회화 표현입니다."},
+  {"id":9,"topic":"확답하기 어려울 때","sentences":[
+    {"en":"I don't want to promise anything I can't deliver.","ko":"지키지 못할 약속은 하고 싶지 않아."},
+    {"en":"Can I get back to you once I've had a chance to check?","ko":"확인해 보고 다시 알려줘도 될까?"},
+    {"en":"It depends on how things go, but I'll do my best to make it.","ko":"상황을 봐야겠지만, 최대한 참석해 볼게."}],
+    "note":"once I've had a chance to check는 '확인할 기회가 생겨 확인하고 나면'이라는 뜻입니다. 미래 이야기여도 once 뒤에는 보통 will을 쓰지 않습니다."},
+  {"id":10,"topic":"금요일 응용 · 계획 조정하기","sentences":[
+    {"en":"Would you mind if we kept the afternoon open in case the flight gets delayed?","ko":"비행기가 지연될 수도 있으니 오후 일정은 비워둬도 괜찮을까?"},
+    {"en":"I'm happy to go along with that, as long as everyone's on the same page.","ko":"다들 같은 생각이라면 나도 그렇게 해도 좋아."},
+    {"en":"I'll get back to you once I've worked out how much time we'll need.","ko":"시간이 얼마나 필요할지 계산해 보고 다시 알려줄게."}],
+    "note":"이번 주 표현 복습: in case(상황에 대비해), as long as(조건을 충족하면), once + 현재·현재완료(그 일이 이루어지고 나면)."},
+  {"id":11,"topic":"불편한 상황 설명하기","sentences":[
+    {"en":"I hate to be a bother, but the air conditioning still isn't working.","ko":"번거롭게 해드려 죄송하지만, 에어컨이 아직도 작동하지 않아요."},
+    {"en":"This isn't quite what I had in mind when I made the booking.","ko":"제가 예약할 때 생각했던 것과는 좀 다르네요."},
+    {"en":"I was under the impression that the fee covered everything.","ko":"저는 그 요금에 모든 게 포함된 것으로 알고 있었어요."}],
+    "note":"I was under the impression that…은 '저는 …인 줄 알고 있었어요'라는 뜻입니다. 자신이 이해했던 내용을 말하며 차이를 짚을 때 씁니다."},
+  {"id":12,"topic":"해결책을 함께 찾기","sentences":[
+    {"en":"What would be the easiest way to sort this out?","ko":"이걸 해결할 가장 간단한 방법이 뭘까요?"},
+    {"en":"Would it help if I sent you a screenshot?","ko":"스크린샷을 보내드리면 도움이 될까요?"},
+    {"en":"If replacing it isn't an option, could we look into getting a refund?","ko":"교환이 안 된다면 환불받을 수 있는지 알아봐 주실 수 있을까요?"}],
+    "note":"Would it help if I + 과거형?은 자신이 할 수 있는 행동을 조심스럽게 제안하는 말입니다. sort this out은 이 문제를 정리하거나 해결한다는 뜻입니다."},
+  {"id":13,"topic":"진행 상황 묻고 재촉하기","sentences":[
+    {"en":"I just wanted to check where we are with the reservation.","ko":"예약이 어떻게 진행되고 있는지 확인하고 싶어서요."},
+    {"en":"Do you have a rough idea of how much longer it'll take?","ko":"앞으로 얼마나 더 걸릴지 대략 알 수 있을까요?"},
+    {"en":"I'd really appreciate it if you could keep me posted.","ko":"진행 상황을 계속 알려주시면 정말 감사하겠습니다."}],
+    "note":"I'd appreciate it if you could…는 정중한 요청입니다. keep me posted는 새로운 소식이나 진행 상황을 계속 알려 달라는 뜻입니다."},
+  {"id":14,"topic":"실수 인정하고 수습하기","sentences":[
+    {"en":"I should've double-checked before I sent it over.","ko":"보내기 전에 한 번 더 확인했어야 했는데."},
+    {"en":"That's on me—I got the dates mixed up.","ko":"내 실수야. 날짜를 헷갈렸어."},
+    {"en":"I'll make sure it gets sorted out before you leave.","ko":"출발하시기 전에 해결되도록 할게요."}],
+    "note":"should've + 과거분사는 과거에 하지 못한 일에 대한 후회나 아쉬움입니다. That's on me는 자신의 책임을 인정하는 짧은 회화 표현입니다."},
+  {"id":15,"topic":"금요일 응용 · 문제를 차분하게 해결하기","sentences":[
+    {"en":"I was under the impression that we could change the date without paying extra.","ko":"추가 요금 없이 날짜를 바꿀 수 있는 줄 알았어요."},
+    {"en":"Would it help if I came by in person to sort this out?","ko":"제가 직접 찾아가서 해결하면 도움이 될까요?"},
+    {"en":"I should've checked sooner—I'd appreciate it if you could let me know what's still available.","ko":"더 일찍 확인했어야 했네요. 아직 가능한 게 뭔지 알려주시면 감사하겠습니다."}],
+    "note":"이번 주 표현 복습: I was under the impression(그렇게 알고 있었다), Would it help if(도움이 될까요), should've(했어야 했는데)."},
+  {"id":16,"topic":"예상과 실제 비교하기","sentences":[
+    {"en":"It turned out to be a lot less complicated than I'd expected.","ko":"막상 해보니 예상했던 것보다 훨씬 덜 복잡했어."},
+    {"en":"I wouldn't say it was disappointing, but it didn't quite live up to the hype.","ko":"실망스러웠다고까지는 못 하겠지만, 소문만큼은 아니었어."},
+    {"en":"Looking back, we probably could've done without the rental car.","ko":"돌이켜보면 렌터카 없이도 괜찮았을 것 같아."}],
+    "note":"turned out to be는 '알고 보니/결과적으로 ~였다'라는 뜻입니다. could've done without는 없어도 괜찮았을 것이라는 과거의 가능성을 말합니다."},
+  {"id":17,"topic":"경험을 바탕으로 조언하기","sentences":[
+    {"en":"If I were you, I'd allow more time than you think you'll need.","ko":"나라면 필요할 것 같은 시간보다 더 여유 있게 잡겠어."},
+    {"en":"You're probably better off booking directly with the hotel.","ko":"아마 호텔에 직접 예약하는 게 더 나을 거야."},
+    {"en":"It's worth checking whether your insurance covers it before you pay.","ko":"돈을 내기 전에 보험 적용이 되는지 확인해 볼 만해."}],
+    "note":"be better off + -ing는 그렇게 하는 편이 더 낫다는 뜻입니다. It's worth + -ing는 시간이나 노력을 들여 해볼 가치가 있다는 표현입니다."},
+  {"id":18,"topic":"과거의 선택 돌아보기","sentences":[
+    {"en":"If I'd known it would be this busy, I would've booked ahead.","ko":"이렇게 붐빌 줄 알았으면 미리 예약했을 텐데."},
+    {"en":"I wish I'd asked a few more questions before agreeing to it.","ko":"동의하기 전에 몇 가지 더 물어봤으면 좋았을 텐데."},
+    {"en":"We might've saved ourselves a lot of trouble by taking a taxi.","ko":"택시를 탔으면 고생을 많이 덜었을 수도 있어."}],
+    "note":"If I'd known…, I would've…는 실제와 다른 과거를 가정합니다. 여기서 I'd는 I had, would've는 would have의 줄임말입니다."},
+  {"id":19,"topic":"경험을 자연스럽게 이야기하기","sentences":[
+    {"en":"We ended up staying an extra night because we were having such a good time.","ko":"너무 즐거워서 결국 하루 더 묵었어."},
+    {"en":"What surprised me most was how easy it was to get around.","ko":"가장 놀라웠던 건 이동하기가 정말 편했다는 거야."},
+    {"en":"It took me a while to get used to it, but now I wouldn't have it any other way.","ko":"적응하는 데 좀 걸렸지만, 지금은 이 방식이 딱 좋아."}],
+    "note":"end up + -ing는 이런저런 과정을 거쳐 결국 그렇게 되었다는 뜻입니다. get used to 뒤에는 명사나 -ing가 옵니다."},
+  {"id":20,"topic":"금요일 응용 · 경험에서 배운 점 말하기","sentences":[
+    {"en":"It turned out we were better off taking the train after all.","ko":"결국 기차를 타는 게 더 나은 선택이었더라고."},
+    {"en":"If I'd known how much walking was involved, I would've packed different shoes.","ko":"그렇게 많이 걸어야 할 줄 알았으면 다른 신발을 챙겼을 텐데."},
+    {"en":"We ended up changing our plans, but looking back, I'm glad we did.","ko":"결국 계획을 바꿨는데, 돌아보니 그러길 잘한 것 같아."}],
+    "note":"이번 주 표현 복습: turned out(알고 보니), better off(그편이 더 나은), If I'd known(알았더라면), ended up(결국 그렇게 되다)."}
+]
