@@ -4,25 +4,6 @@
 
 - 첫 콘텐츠: 4주 / 20회 / 60문장. 월~목 새 표현, 금요일 응용 복습.
 - 4주 후에는 같은 콘텐츠를 반복합니다. 실시간 웹 수집이나 AI 생성은 하지 않습니다.
-- Python 표준 라이브러리만 사용하며 유료 API 키나 별도 서버가 필요하지 않습니다.
-- 메일 기능은 `study_mail.py`로 실행합니다.
-
-## 메일 연결 (최초 한 번)
-
-1. 발신 Gmail 계정에서 [2단계 인증](https://myaccount.google.com/security)을 설정하고 [앱 비밀번호](https://myaccount.google.com/apppasswords)를 만듭니다. 일반 로그인 비밀번호 대신 앱 비밀번호를 사용합니다. 계정 정책에 따라 앱 비밀번호를 사용할 수 없을 수 있습니다. [Google 안내](https://support.google.com/accounts/answer/185833?hl=ko)
-2. [저장소 Actions Secrets](https://github.com/alicia-eunsil/dailystudy/settings/secrets/actions)에 다음 세 값을 등록합니다. 주소도 공개 소스에 넣지 않습니다.
-
-| Secret 이름 | 값 |
-|---|---|
-| `GMAIL_ADDRESS` | 발신 Gmail 주소 |
-| `GMAIL_APP_PASSWORD` | Gmail 앱 비밀번호 |
-| `RECIPIENT_EMAIL` | 수신 회사 메일 주소 |
-
-3. [Daily English Actions](https://github.com/alicia-eunsil/dailystudy/actions/workflows/daily-english.yml) → **Run workflow** → `preview`로 메일 미리보기를 확인합니다. 실행 결과의 `email-preview` 아티팩트에 HTML과 텍스트가 있습니다.
-4. 평일에 `send`를 선택하면 실제 발송합니다. 같은 날 이미 발송했거나 발송 예약이 남아 있으면 건너뜁니다. 주말에는 수동 실행해도 보내지 않습니다.
-5. 이후 월~금 오전 7시 자동 실행합니다. [GitHub 예약 실행](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)은 혼잡 시 지연·누락될 수 있어 정확한 도착 시각을 보장하지 않습니다. 공개 저장소는 60일간 활동이 없으면 예약 실행이 비활성화될 수 있습니다.
-
-회사 보안 정책으로 메일이 격리되면 회사 메일의 스팸함과 수신 정책을 확인하세요. Gmail 수락 로그는 회사 메일함 도착 확인을 의미하지 않습니다.
 
 ## 로컬 미리보기와 검사
 
