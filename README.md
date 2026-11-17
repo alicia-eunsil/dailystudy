@@ -5,7 +5,7 @@
 - 첫 콘텐츠: 4주 / 20회 / 60문장. 월~목 새 표현, 금요일 응용 복습.
 - 4주 후에는 같은 콘텐츠를 반복합니다. 실시간 웹 수집이나 AI 생성은 하지 않습니다.
 - Python 표준 라이브러리만 사용하며 유료 API 키나 별도 서버가 필요하지 않습니다.
-- 기존 PDF 뷰어 코드는 그대로 있고, 메일 기능은 `study_mail.py`로 독립 실행합니다.
+- 메일 기능은 `study_mail.py`로 실행합니다.
 
 ## 메일 연결 (최초 한 번)
 
@@ -26,7 +26,7 @@
 
 ## 로컬 미리보기와 검사
 
-Python 3.11 이상에서 실행합니다. 메일 기능에는 기존 PDF 앱의 `requirements.txt`를 설치할 필요가 없습니다.
+Python 3.11 이상에서 실행합니다. 별도 패키지 설치가 필요하지 않습니다.
 
 ```bash
 python3 study_mail.py preview --lesson 1
@@ -47,51 +47,3 @@ python3 -m unittest discover -s tests -v
 - SMTP 연결 중단 등으로 발송 여부가 불확실할 때는 중복 방지를 우선하여 자동 재시도하지 않습니다. `reserved`는 발송 성공을 뜻하지 않습니다. Gmail 보낸편지함·수신함 확인 후 미발송이 확실한 경우에만 해당 날짜 항목을 삭제·커밋하고 평일 당일 `send`를 재실행하세요. 이전 날짜 메일은 자동 보충하지 않습니다.
 - 예약 커밋 이후 취소되거나 발송 성공 기록 푸시가 실패해도 예약은 남습니다. 내용 확장이나 설정 변경 전 `git pull --rebase`로 발송 기록을 가져오세요.
 - 자동 발송 중지는 Actions에서 Daily English → Disable workflow로 설정합니다.
-
----
-
-# 기존 프로젝트: coview-pdf
-
-# PDF Mirror (GJF00) — 실시간 PDF 동기화 뷰어
-
-조정자(Controller/Host)가 선택한 **PDF 파일과 페이지**를 관전자(Viewer)가 **새로고침 없이 실시간으로 따라보는** 웹 서비스입니다.  
-WebSocket 기반으로 상태(pdf 번호, 페이지, 조정권)를 동기화합니다.
-
-- 기본 Room: **GJF00** (URL에 `?room=` 파라미터 없이 고정)
-- PDF 3개(pdf1.pdf, pdf2.pdf, pdf3.pdf) 지원
-- 조정권(Control) **즉시 takeover** 방식 (누가 ON 누르면 조정권을 가져감)
-
----
-
-## 주요 기능
-
-- **실시간 동기화**
-  - 조정자가 PDF 1~3 선택, 페이지 이동 시 관전자 화면이 즉시 변경
-- **조정권 ON/OFF**
-  - ON: 즉시 조정권 takeover
-  - OFF: 조정권 해제(비움)
-- **현재 페이지/전체 페이지 표시**
-  - 예: `PDF 2 | 17 / 42 pages`
-- **성능/안정성 개선**
-  - 같은 PDF 내 페이지 이동은 **재로딩 없이 캐싱 문서 사용**
-  - PDF.js `render()` 충돌 방지(이전 렌더 작업 cancel)
-  - iOS/Safari 캔버스 뒤집힘 방지(DPR + transform 초기화)
-
----
-
-## 파일 구조
-
-```text
-.
-├─ main.py
-├─ requirements.txt
-└─ static/
-   ├─ host.html          # 조정자 화면
-   ├─ view.html          # 관전자 화면
-   ├─ pdf/
-   │  ├─ pdf1.pdf
-   │  ├─ pdf2.pdf
-   │  └─ pdf3.pdf
-   └─ pdfjs/
-      ├─ pdf.min.js
-      └─ pdf.worker.min.js
