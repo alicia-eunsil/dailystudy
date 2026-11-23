@@ -1,6 +1,6 @@
 {
-  "week": 0,
-  "week_monday": "2026-11-16",
+  "week": 1,
+  "week_monday": "2026-11-23",
   "deliveries": {
     "2026-11-18": {
       "lesson_id": 3,
@@ -13,6 +13,10 @@
     "2026-11-20": {
       "lesson_id": 5,
       "status": "sent"
+    },
+    "2026-11-23": {
+      "lesson_id": 6,
+      "status": "reserved"
     }
   }
 }
