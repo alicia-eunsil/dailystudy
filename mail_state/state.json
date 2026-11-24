@@ -17,6 +17,10 @@
     "2026-11-23": {
       "lesson_id": 6,
       "status": "sent"
+    },
+    "2026-11-24": {
+      "lesson_id": 7,
+      "status": "reserved"
     }
   }
 }
